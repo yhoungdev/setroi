@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.css'
 import Header from '../../components/common/header/header';
+import {Customers, Inter} from '../../components/tiny/info';
 const Homepage = () => {
     return (
         <>
@@ -22,10 +23,29 @@ const Homepage = () => {
                         </button>
 
                         
-                   
+
+                       
 
               </div>
+
+              
             </section>
+
+            {/* lady part */}
+            <section className="container">
+
+                <div className="lady-part">
+                   <Inter/>
+                </div>
+
+                <div className="customers">
+                    <Customers/>
+                </div>
+
+            </section>
+
+            {/* customers part */}
+           
 
             
 
