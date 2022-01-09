@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Recoleta;
+    src: url('../../assets/fonts/Recoleta-Bold/Recoleta-Bold.ttf');
+}
+
+@font-face {
+    font-family: Euclid;
+    src: url("../../assets/fonts/Euclid/Euclid\ Circular\ A\ Regular.ttf");
+
+   
+}
+
+.container {
+    .lady-part {
+        margin-top: 3em;
+    }
+}
+
+.details {
+
+    margin: 2em 0;
+    h1 {
+      font-family: Recoleta;
+      text-transform: capitalize;
+        font-size: 2em;
+        text-align: center;
+    }
+
+    p {
+        font-family: Euclid;
+        font-size: 1em;
+        text-align: center;
+        color: #666666;
+        margin: 1em 0;
+    }
+}
+
+
+
+@media (min-width: 1200px) {
+    .container {
+        .lady-part {
+            width: 100%;
+            margin-left: 5em;
+        }
+    }
+}
+
+//small screens and@
+
+@media screen and (max-width: 768px) {
+
+    //details part
+    
+
+    .details {
+
+        margin: 2em 0;
+        h1 {
+          font-family: Recoleta;
+          text-transform: capitalize;
+            font-size: 1.5em;
+            text-align: center;
+            margin: 1em 0;
+        }
+    }
+
+}
