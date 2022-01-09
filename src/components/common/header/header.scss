@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Euclid;
+    src: url('../../../assets/fonts/Euclid/Euclid\ Circular\ A\ Medium.ttf');
+}
+
+header {
+    font-family: "Euclid";
+    font-weight: 500;
+}
+
+
+//small screens
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 0.5em 2em;
+    }
+    .sm-hide {
+        display: none;
+    }
+    
+    .menu {
+        
+        h1 {
+            cursor: pointer;
+            
+        }
+    
+    }
+    
+}
+
+//for large scrren
+
+@media screen and (min-width: 768px) {
+    .menu {
+        h1 {
+            display: none;
+        }
+    }
+}

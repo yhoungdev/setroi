@@ -4,7 +4,7 @@ module.exports = {
   ],
   theme: {
     colors:{
-     " green":"#00DC7E",
+     "btn-green":"#00DC7E",
      " dark":"#18202F",
      "text":"#344565"
 
