@@ -1,7 +1,8 @@
 import React from 'react';
 import { World } from './words';
 import './index.css';
-import Vector from '../../assets/images/images/Vector 1.svg'
+import Vector from '../../assets/images/images/Vector.svg';
+
 const About = () => {
 
     return (
@@ -25,6 +26,10 @@ const About = () => {
                             
 
                             
+                        </div>
+
+                        <div className="rounded">
+                            <img src={Vector} alt="" className='my-4'/>
                         </div>
 
 

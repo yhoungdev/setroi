@@ -25,6 +25,10 @@
   color: #e7e5e5 !important;
 }
 
+.split {
+  margin-top: 6em;
+}
+
 .part h2 {
   font-family: Recoleta;
   font-size: 1.5em;
@@ -70,6 +74,9 @@
   .left {
     width: 50%;
     margin-left: 4em;
+  }
+  .rounded {
+    margin: 5em 0;
   }
 }
 
