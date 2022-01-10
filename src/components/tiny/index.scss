@@ -21,11 +21,14 @@
     font-size: 1.5em;
     margin-bottom: 1em;
     line-height: 1.5em;
+    color: rgb(231, 229, 229) !important;
 }
 
 //for party
 
-
+.split {
+   
+}
 
     .part{
         h2 {
@@ -78,6 +81,15 @@
             margin-left: 5em;
         }
     }
+
+    .left {
+        width: 50%;
+        margin-left: 4em;
+    }
+    
+
+    //split container
+  
 }
 
 //small screens and@

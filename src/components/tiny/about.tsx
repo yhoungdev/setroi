@@ -6,24 +6,25 @@ const About = () => {
 
     return (
         <>
-            <div className="container">
+            <div className="container ">
 
-                <div className="split flex justify-between py-5 sm:flex-col"> 
+                <div className="split flex justify-between py-5 ml-6 sm:flex-col "> 
 
                     <div className="left">
 
                         <div className="title">
-                            <h3 className="text-white heading">
+                            <h3 className="heading text-white-500">
                             Position your page appearing in more than 100 newspapers and digital media
                             </h3>
 
+
                             <div className="btn-hold">
-                            <button className='text-black bg-btn-green px-3 py-3 rounded-full my-1'>see more information</button>
+                            <button className='text-black bg-btn-green px-3 py-4 rounded-full my-1'>see more information</button>
                             </div>
 
-                            <div className="vector">
-                                <img src={Vector} alt="" />
-                            </div>
+                            
+
+                            
                         </div>
 
 
