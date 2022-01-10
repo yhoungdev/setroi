@@ -28,11 +28,13 @@
   font-family: Recoleta;
   font-size: 1.5em;
   margin-bottom: 1em;
+  width: 273px;
   line-height: 1.5em;
 }
 
 .part p {
   width: 20em;
+  font-family: Euclid;
 }
 
 .container .lady-part {
@@ -66,6 +68,15 @@
 }
 
 @media screen and (max-width: 768px) {
+  .part h2 {
+    font-family: Recoleta;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    line-height: 1.5em;
+  }
+  .part p {
+    width: 20em;
+  }
   .details {
     margin: 2em 0;
   }
@@ -75,6 +86,14 @@
     font-size: 1.5em;
     text-align: center;
     margin: 1em 0;
+  }
+  .heading {
+    text-align: center;
+    margin: 1em auto;
+  }
+  .left .btn-hold {
+    text-align: center;
+    margin: 2em auto;
   }
 }
 /*# sourceMappingURL=index.css.map */
