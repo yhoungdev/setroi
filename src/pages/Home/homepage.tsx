@@ -2,6 +2,7 @@ import React from 'react';
 import './index.css'
 import Header from '../../components/common/header/header';
 import {Customers, Inter} from '../../components/tiny/info';
+import About from '../../components/tiny/about';
 const Homepage = () => {
     return (
         <>
@@ -45,8 +46,12 @@ const Homepage = () => {
             </section>
 
             {/* customers part */}
-           
 
+            {/* about session with more info */}
+           
+            <section className="about bg-bg-dark">
+                <About/>
+            </section>
             
 
         </>

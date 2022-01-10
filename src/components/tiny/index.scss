@@ -10,6 +10,37 @@
    
 }
 
+.medias {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.heading {
+    font-family: Recoleta;
+    width: 263px;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    line-height: 1.5em;
+}
+
+//for party
+
+
+
+    .part{
+        h2 {
+          font-family: Recoleta;
+          font-size: 1.5em;
+          margin-bottom: 1em;
+          line-height: 1.5em;
+        }
+
+        p {
+            width: 20em;
+        }
+      }
+
+
 .container {
     .lady-part {
         margin-top: 3em;
