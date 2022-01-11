@@ -14,7 +14,7 @@
 
 .advert .left .head  {
 position: static;
-width: 387px;
+width: 70%;
 height: 108px;
 left: 0px;
 top: 0px;
@@ -37,7 +37,7 @@ color: #18202F;
 .advert .left p {
     font-family: Euclid;
     font-size: 1.2em;
-    width: 60%;
+    width: 80%;
     margin-top: 1em;
     
 }
