@@ -1,25 +1,26 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Setroi",
+  "name": "Setroi news app",
+  "description": "Foget the old positioning strategies that do not work for your business and start to position in the first search results appearing in more than 100 digital newspaper.",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "../src/displays/footer-set.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "../src/displays/footer-set.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "../src/displays/setroi.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#00DC7E",
+  "background_color": "#192130"
 }
