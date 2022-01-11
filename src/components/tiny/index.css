@@ -8,6 +8,10 @@
   src: url("../../assets/fonts/Euclid/Euclid Circular A Regular.ttf");
 }
 
+.container .note {
+  height: 70vh;
+}
+
 .download {
   display: none;
 }
@@ -47,10 +51,6 @@
   color: #d4d3d3 !important;
 }
 
-.container .lady-part {
-  margin-top: 3em;
-}
-
 .details {
   margin: 2em 0;
 }
@@ -72,8 +72,7 @@
 
 @media (min-width: 1200px) {
   .container .lady-part {
-    width: 100%;
-    margin-left: 5em;
+    margin-top: 3em;
   }
   .left {
     width: 50%;
@@ -87,6 +86,9 @@
     position: absolute;
     top: 2508px;
     padding: 5em 0;
+  }
+  .image-part {
+    margin-top: 4em;
   }
 }
 

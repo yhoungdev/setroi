@@ -40,7 +40,7 @@ const Homepage = () => {
                    <Inter/>
                 </div>
 
-                <div className="customers">
+                <div className="customers my-5">
                     <Customers/>
                 </div>
 
@@ -59,7 +59,20 @@ const Homepage = () => {
 
             {/* ads */}
           
-           
+            {/* how it works */}
+            <section className="works">
+
+                <div className="works inner">
+
+                <h2 className="text-center">How does it work?</h2>
+                <p className="text-center">We create wonderful results with the best work approach.</p>
+          
+                </div>
+
+
+                {/* clients part */}
+          
+            </section>
             
 
         </>
