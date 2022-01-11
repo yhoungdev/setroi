@@ -8,6 +8,10 @@
   src: url("../../assets/fonts/Euclid/Euclid Circular A Regular.ttf");
 }
 
+.download {
+  display: none;
+}
+
 .medias {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -78,9 +82,24 @@
   .rounded {
     margin: 5em 0;
   }
+  .phone {
+    border-radius: 2em;
+    position: absolute;
+    top: 2508px;
+    padding: 5em 0;
+  }
 }
 
 @media screen and (max-width: 768px) {
+  .phone {
+    position: static;
+    width: 100%;
+    border-radius: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
   .part h2 {
     font-family: Recoleta;
     font-size: 1.2em;

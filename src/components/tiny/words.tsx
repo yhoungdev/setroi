@@ -18,6 +18,10 @@ export const World = (props:any) =>{
 
             </div>
 
+            {/* phone part */}
+
+       
+
         </>
     )
 }

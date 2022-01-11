@@ -10,6 +10,23 @@
    
 }
 
+
+// .phone {
+//     display: flex;
+//     justify-content: center;
+   
+
+   
+
+
+// }
+
+.download{
+    display: none;
+}
+
+
+
 .medias {
     display: flex;
     flex-wrap: wrap;
@@ -95,13 +112,28 @@
     }
 
     //split container
+
+    //phone for large screen
+    .phone {
+        
+        border-radius: 2em;
+        position: absolute;
+        top: 2508px;
+        padding: 5em 0;
+    }
   
 }
 
 //small screens and@
 
 @media screen and (max-width: 768px) {
+    .phone {
+        position: static;
+        width: 100%;
+        border-radius:0;
+        flex-direction: column-reverse;
 
+    }
     //details part
 
     .part{
