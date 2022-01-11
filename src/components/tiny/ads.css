@@ -30,6 +30,10 @@ color: #18202F;
     
 }
 
+.works {
+    margin-top: 4em;
+}
+
 .advert .left {
     margin-top:2em
 }
@@ -42,6 +46,42 @@ color: #18202F;
     
 }
 
+.works {
+
+  
+}
+
+.works-inner h2 {
+   font-family: Recoleta;
+   font-size: 47px;
+
+}
+
+.works-inner p {
+    font-family: euclid;
+    font-size:18px;
+
+}
+
+
+/* more component */
+.bread-down {
+
+    
+}
+
+.break-down h2{
+
+    font-family: recoleta;
+    font-size: 1.6em;
+
+
+}
+
+.break-down p {
+    font-family: euclid;
+    width: 20em;
+}
 /* small screens */
 
 @media screen and (max-width: 767px) {
@@ -50,6 +90,14 @@ color: #18202F;
         margin-top: 2em;
         width: 60%;
         
+    }
+
+    .works-inner h2 {
+        font-size: 2em;
+    }
+
+    .works-inner p{
+        font-size: 1em;
     }
 }
     

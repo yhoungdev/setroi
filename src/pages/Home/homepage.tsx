@@ -4,6 +4,7 @@ import Header from '../../components/common/header/header';
 import {Customers, Inter} from '../../components/tiny/info';
 import About from '../../components/tiny/about';
 import Ads from '../../components/tiny/ads';
+import How from '../../components/tiny/how';
 const Homepage = () => {
     return (
         <>
@@ -60,19 +61,7 @@ const Homepage = () => {
             {/* ads */}
           
             {/* how it works */}
-            <section className="works">
-
-                <div className="works inner">
-
-                <h2 className="text-center">How does it work?</h2>
-                <p className="text-center">We create wonderful results with the best work approach.</p>
-          
-                </div>
-
-
-                {/* clients part */}
-          
-            </section>
+            <How/>
             
 
         </>
