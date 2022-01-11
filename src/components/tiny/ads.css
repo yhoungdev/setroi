@@ -1,0 +1,55 @@
+.advert {
+    padding: 4em 0.5em;
+}
+
+@font-face {
+    font-family:'Euclid';
+    src: url('../../assets/fonts/Euclid/Euclid\ Circular\ A\ Regular.ttf');
+}
+
+@font-face {
+    font-family:'Recoleta';
+    src: url('../../assets/fonts/Recoleta-Bold/Recoleta-Bold.ttf');
+}
+
+.advert .left .head  {
+position: static;
+width: 387px;
+height: 108px;
+left: 0px;
+top: 0px;
+
+font-family: Recoleta;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 54px;
+letter-spacing: -0.02em;
+
+color: #18202F;
+    
+}
+
+.advert .left {
+    margin-top:2em
+}
+
+.advert .left p {
+    font-family: Euclid;
+    font-size: 1.2em;
+    width: 60%;
+    margin-top: 1em;
+    
+}
+
+/* small screens */
+
+@media screen and (max-width: 767px) {
+    .advert .left .head {
+        font-size: 1.5em;
+        margin-top: 2em;
+        width: 60%;
+        
+    }
+}
+    

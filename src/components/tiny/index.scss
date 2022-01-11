@@ -10,6 +10,62 @@
    
 }
 
+
+// .phone {
+//     display: flex;
+//     justify-content: center;
+   
+
+   
+
+
+// }
+
+.download{
+    display: none;
+}
+
+
+
+.medias {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.heading {
+    font-family: Recoleta;
+    width: 263px;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    line-height: 1.5em;
+    color: rgb(231, 229, 229) !important;
+}
+
+//for party
+
+.split {
+    
+    margin-top: 6em;
+    
+}
+
+    .part{
+        h2 {
+          font-family: Recoleta;
+          font-size: 1.5em;
+          margin-bottom: 1em;
+          width: 273px;
+          line-height: 1.5em;
+        }
+
+        p {
+            width: 20em;
+            font-family: Euclid;
+            color: rgb(212, 211, 211) !important;
+        }
+      }
+
+
 .container {
     .lady-part {
         margin-top: 3em;
@@ -32,6 +88,7 @@
         text-align: center;
         color: #666666;
         margin: 1em 0;
+       
     }
 }
 
@@ -44,14 +101,55 @@
             margin-left: 5em;
         }
     }
+
+    .left {
+        width: 50%;
+        margin-left: 4em;
+    }
+    
+    .rounded {
+        margin: 5em 0;
+    }
+
+    //split container
+
+    //phone for large screen
+    .phone {
+        
+        border-radius: 2em;
+        position: absolute;
+        top: 2508px;
+        padding: 5em 0;
+    }
+  
 }
 
 //small screens and@
 
 @media screen and (max-width: 768px) {
+    .phone {
+        position: static;
+        width: 100%;
+        border-radius:0;
+        flex-direction: column-reverse;
 
+    }
     //details part
-    
+
+    .part{
+        h2 {
+          font-family: Recoleta;
+          font-size: 1.2em;
+          margin-bottom: 1em;
+          line-height: 1.5em;
+        
+        }
+
+        p {
+            width: 20em;
+            
+        }
+      }
 
     .details {
 
@@ -63,6 +161,20 @@
             text-align: center;
             margin: 1em 0;
         }
+    }
+
+    .heading {
+        text-align: center;
+        margin: 1em auto;
+       
+    }
+
+    .left .btn-hold {
+      text-align: center;
+        margin: 2em auto;
+
+        
+        
     }
 
 }

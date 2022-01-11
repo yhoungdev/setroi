@@ -7,3 +7,7 @@
 button {
   outline: none !important;
 }
+
+body {
+  overflow-x: hidden;
+}

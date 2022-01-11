@@ -48,7 +48,7 @@ export const Customers = () => {
                 </p>
 
 
-                <div className="medias flex">
+                <div className="medias">
 
                     {
                         medias.images.map((item, index) => {
