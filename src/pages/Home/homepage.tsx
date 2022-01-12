@@ -27,7 +27,7 @@ const Homepage = () => {
                         </p>
 
                         {
-                            isAuthenticated ? <button className='pt-3 pb-3 pl-4 pr-4 bg-btn-green  rounded-full
+                            !isAuthenticated ? <button className='pt-3 pb-3 pl-4 pr-4 bg-btn-green  rounded-full
                             mt-5 border-none outline-0'
                             onClick={ logIn}
                             >
