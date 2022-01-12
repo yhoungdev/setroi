@@ -13,9 +13,12 @@
 
 footer {
 
+    padding: 5em 0;
+    margin-top: 4   em;
+
     p{
         font-family: Euclid;
-        
+        color: #99ABCC !important;
     }
 
     color: white;
@@ -24,7 +27,16 @@ footer {
         padding: 0;
         li {
             font-family: Euclid;
+            color: #99ABCC !important;
+            line-height:3;
         }
+    }
+
+    h5 {
+        font-family: Euclid;
+        font-size: 1em;
+        font-weight: bold;
+        color: #99ABCC !important;
     }
 }
 

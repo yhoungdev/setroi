@@ -92,9 +92,19 @@ const Homepage = () => {
             
 
             {/* footer part */}
-            <div className="footer ">
+            <div className="footer bg-bg-footer ">
                 
                 <Footer/>
+
+                <div className="container">
+                <div className="more">
+                    <p className="text-more pb-4">
+                    Prices do not include application taxes.
+                    Copyright © 2020 Agencia Marketing Ninja SL All rights reserved. The word mark Setroi is a registered trademark of Agencia Marketing ninja SL SETROI DOES NOT belong to GOOGLE. Neither in its custody any binding element or intellectual property. So there is no relationship between companies. We mention GOOGLE in order to publicize the services that this company provides, without 
+                    being linked to the results or procedures of said brand.
+                    </p>
+                </div>
+                </div>
 
             </div>
 
