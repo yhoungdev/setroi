@@ -8,6 +8,11 @@
   src: url("../../assets/fonts/Euclid/Euclid Circular A Regular.ttf");
 }
 
+.more p {
+  font-family: Euclid;
+  font-size: 12px;
+}
+
 .container {
   margin-top: 1em;
 }

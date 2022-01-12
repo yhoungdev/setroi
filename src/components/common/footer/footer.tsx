@@ -3,6 +3,7 @@ import './footer.css'
 import apple_dark from '../../../assets/images/images/apple-dark.svg'
 import android_dark from '../../../assets/images/images/android-dark.svg'
 import Cards from '../../../assets/images/images/cards.svg'
+import Footer_svg from '../../../assets/images/images/footer_svg.svg'
 const Footer = ()=>{
     return (
         <>
@@ -13,8 +14,10 @@ const Footer = ()=>{
                     <div className="flex justify-between sm:flex-col">
 
                         <div className="logo">
-
-                            <p className="text-white">
+                            <span>
+                                <img src={Footer_svg} alt="" />
+                            </span>
+                            <p className="text-white mt-4">
                             Get to the top of 
                             Google by appearing in 
                             more than 100 digital newspaper.
@@ -31,8 +34,10 @@ const Footer = ()=>{
 
                             <ul className='list-none'>
                                 <li>Home</li>
-                                <li>ABout</li>
                                 <li>FAQ</li>
+                                <li>Cookies Policy </li>
+                                <li>Privacy Policy</li>
+                                <li>Terms of Condition</li>
                             </ul>
                         </div>
 
@@ -55,9 +60,16 @@ const Footer = ()=>{
                         </div>
                     </div>
 
+                    
+
                 </div>
 
+
+                
+
             </footer>
+
+            
         </>
     )
 }
