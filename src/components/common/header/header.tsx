@@ -7,17 +7,20 @@ import {useAuth0} from '@auth0/auth0-react'
 
 const Header = (props:any) =>{
 
-    const {user, isAuthenticated} = useAuth0()
+    const { user, isAuthenticated, isLoading, logout } = useAuth0();
+
+    const userLogout = () => logout({returnTo: window.location.origin})
     return (
 
         <>
+      
 
            <div className="container">
                 <header className="flex justify-between">
-
-
+                 
                     <div className="logo">
                         <img src={Setroi} alt="" />
+                    
                     </div>
 
                     <div className="middle sm-hide">
@@ -35,9 +38,13 @@ const Header = (props:any) =>{
                             !isAuthenticated ? <button className=" px-4 py-2 rounded-full 
                             bg-btn-green ml-3 hover:bg-green-200">log in</button>
                             : <button className=" px-4 py-2 rounded-full 
-                            bg-bg-dark ml-3 text-white hover:bg-green-200">log out</button>
+                            bg-bg-dark ml-3 text-white hover:bg-green-200"
+                            onClick={userLogout}
+                            >log out</button>
                         }
                     </nav>
+
+                
 
      
 

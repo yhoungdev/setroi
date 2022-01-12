@@ -8,7 +8,7 @@ import How from '../../components/tiny/how';
 import {useAuth0} from '@auth0/auth0-react'
 const Homepage = () => {
 
-    const {loginWithRedirect} = useAuth0()
+    const {loginWithRedirect, logout, user, isAuthenticated} = useAuth0()
 
     const logIn = () => loginWithRedirect();
     return (
@@ -26,12 +26,30 @@ const Homepage = () => {
                             Foget the old positioning strategies that do not work for your business and start to position in the first search results appearing in more than 100 digital newspaper.
                         </p>
 
-                        <button className='pt-3 pb-3 pl-4 pr-4 bg-btn-green  rounded-full
-                         mt-5 border-none outline-0'
-                         onClick={ logIn}
-                         >
-                            Lets get started
-                        </button>
+                        {
+                            isAuthenticated ? <button className='pt-3 pb-3 pl-4 pr-4 bg-btn-green  rounded-full
+                            mt-5 border-none outline-0'
+                            onClick={ logIn}
+                            >
+                               Lets get started
+                           </button> :
+
+                            <div className="div">
+                                
+                                <button className='pt-3 pb-3 pl-4 pr-4 bg-bg-dark  rounded-full
+                                mt-5 border-none outline-0 text-white'
+                                onClick={ logIn}
+                                >
+                                    Weldon, Hold on
+                                </button>
+                                <br />
+                                <small className="text-center my-5">
+                                   
+                                    still under construction
+                                   
+                                </small>
+                            </div>
+                        }
 
                         
 
