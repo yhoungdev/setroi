@@ -6,6 +6,7 @@ import About from '../../components/tiny/about';
 import Ads from '../../components/tiny/ads';
 import How from '../../components/tiny/how';
 import {useAuth0} from '@auth0/auth0-react'
+import Footer from '../../components/common/footer/footer';
 const Homepage = () => {
 
     const {loginWithRedirect, logout, user, isAuthenticated} = useAuth0()
@@ -89,6 +90,13 @@ const Homepage = () => {
             {/* how it works */}
             <How/>
             
+
+            {/* footer part */}
+            <div className="footer ">
+                
+                <Footer/>
+
+            </div>
 
         </>
 

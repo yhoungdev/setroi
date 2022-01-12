@@ -1,0 +1,40 @@
+@font-face {
+    font-family: Recoleta;
+    src: url('../../../assets/fonts/Recoleta-Bold/Recoleta-Bold.ttf');
+}
+
+@font-face {
+    font-family: Euclid;
+    src: url('../../../assets/fonts/Euclid/Euclid\ Circular\ A\ Regular.ttf');
+}
+
+
+
+
+footer {
+
+    p{
+        font-family: Euclid;
+        
+    }
+
+    color: white;
+    ul {
+
+        padding: 0;
+        li {
+            font-family: Euclid;
+        }
+    }
+}
+
+
+// large screen
+
+@media screen and (min-width: 1200px) {
+    footer {
+        p {
+            width: 20em;
+        }
+    }
+}

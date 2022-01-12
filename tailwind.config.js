@@ -7,7 +7,8 @@ module.exports = {
      "btn-green":"#00DC7E",
      " dark":"#18202F",
      "text":"#344565",
-     "bg-dark":"#18202F"
+     "bg-dark":"#18202F",
+     "bg-footer":"#111722"
 
 
     },

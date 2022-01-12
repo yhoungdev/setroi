@@ -1,1 +1,32 @@
-/* No CSS *//*# sourceMappingURL=footer.css.map */
+@font-face {
+  font-family: Recoleta;
+  src: url("../../../assets/fonts/Recoleta-Bold/Recoleta-Bold.ttf");
+}
+
+@font-face {
+  font-family: Euclid;
+  src: url("../../../assets/fonts/Euclid/Euclid Circular A Regular.ttf");
+}
+
+footer {
+  color: white;
+}
+
+footer p {
+  font-family: Euclid;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer ul li {
+  font-family: Euclid;
+}
+
+@media screen and (min-width: 1200px) {
+  footer p {
+    width: 20em;
+  }
+}
+/*# sourceMappingURL=footer.css.map */
