@@ -5,7 +5,12 @@ import {Customers, Inter} from '../../components/tiny/info';
 import About from '../../components/tiny/about';
 import Ads from '../../components/tiny/ads';
 import How from '../../components/tiny/how';
+import {useAuth0} from '@auth0/auth0-react'
 const Homepage = () => {
+
+    const {loginWithRedirect} = useAuth0()
+
+    const logIn = () => loginWithRedirect();
     return (
         <>
             <Header/>
@@ -21,7 +26,10 @@ const Homepage = () => {
                             Foget the old positioning strategies that do not work for your business and start to position in the first search results appearing in more than 100 digital newspaper.
                         </p>
 
-                        <button className='pt-3 pb-3 pl-4 pr-4 bg-btn-green  rounded-full mt-5 border-none outline-0'>
+                        <button className='pt-3 pb-3 pl-4 pr-4 bg-btn-green  rounded-full
+                         mt-5 border-none outline-0'
+                         onClick={ logIn}
+                         >
                             Lets get started
                         </button>
 
