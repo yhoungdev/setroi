@@ -7,7 +7,7 @@ export const Team = () => {
     return (
         <>
        
-            <section className="team ">
+            <section className="team bg-bg-dark py-5">
 
                 <h4 className="text-white">
                   Setroi team ready to assist you.

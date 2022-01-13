@@ -91,7 +91,7 @@ const Homepage = () => {
             {/* how it works */}
             <How/>
             
-            <div className="success">
+            <div className="success my-2">
                 <Story/>
             </div>
            

@@ -8,6 +8,8 @@
   src: url("../../assets/fonts/Euclid/Euclid Circular A Regular.ttf");
 }
 
+
+
 .success {
   margin: 5em 0; 
 }
@@ -95,6 +97,10 @@
 }
 
 @media (min-width: 1200px) {
+  .story {
+    margin: 8em 0;
+  }
+
   .container .lady-part {
     margin-top: 3em;
   }
@@ -117,6 +123,13 @@
 }
 
 @media screen and (max-width: 768px) {
+  .story {
+    margin: 5em 0;
+  }
+
+  .bread  {
+    width: 100%;
+  }
   .phone {
     position: static;
     width: 100%;
