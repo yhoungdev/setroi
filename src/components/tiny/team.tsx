@@ -28,7 +28,7 @@ export const Team = () => {
                           Setroi team ready to assist you.
                         </h4>
 
-                        <img src={Avaters} alt="" className="ml-5"/>
+                        <img src={Avaters} alt="" className="ml-5 cent-img"/>
 
                         <button className="bg-btn-green px-3 py-3 rounded-full text-dark my-3">
                             Ask for information
@@ -76,7 +76,7 @@ export const Story = () => {
 
                     <div className="img flex">
                      <img src={Story1} alt="" className="story-img"/>
-                     <img src={Story2} alt="" className=" ml-3"/>
+                     <img src={Story2} alt="" className=" ml-3 none "/>
                     </div>
 
                 </div>

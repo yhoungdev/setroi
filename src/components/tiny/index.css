@@ -8,6 +8,10 @@
   src: url("../../assets/fonts/Euclid/Euclid Circular A Regular.ttf");
 }
 
+
+.cent-img {
+  margin: 0 auto;
+}
 .many {
   width: 471px;
   height: 80px;
@@ -67,8 +71,16 @@
   color: #e7e5e5 !important;
 }
 .top-top {
-  font-family: Recoleta;
-  width: 50%;
+  width: 373px;
+height: 108px;
+left: 120px;
+top: 199px;
+
+font-family: Recoleta;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 54px;
 }
 
 .bread {
@@ -139,6 +151,12 @@
 }
 
 @media screen and (max-width: 768px) {
+  .top-top {
+    font-size: 2em;
+  }
+  .none {
+    display: none;
+  }
 
   .half {
     display:none;
