@@ -41,7 +41,7 @@ export const Customers = () => {
     return (
         <>
             <div className="details">
-                <h1>Guaranteed publication in hundreds of media</h1>
+                <h1 className='text-bg-dark'>Guaranteed publication in hundreds of media</h1>
                 <p className="description text-center">
                     obtain hundreds of new links to your website to position and 
                     gain trust from your customers.
