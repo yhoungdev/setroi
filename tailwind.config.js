@@ -10,7 +10,8 @@ module.exports = {
      "bg-dark":"#18202F",
      "bg-footer":"#111722",
      "more":"#5774A8",
-     "team":"#192130"
+     "team":"#192130",
+     "tint":"#5774A8"
 
 
     },

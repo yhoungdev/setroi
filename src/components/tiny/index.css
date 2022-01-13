@@ -8,7 +8,23 @@
   src: url("../../assets/fonts/Euclid/Euclid Circular A Regular.ttf");
 }
 
+.many {
+  width: 471px;
+  height: 80px;
+  left: 766px;
+  top: 896px;
 
+  font-family: Euclid ;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  /* or 167% */
+
+
+  color: #5774A8 !important;
+
+}
 
 .success {
   margin: 5em 0; 
@@ -123,6 +139,12 @@
 }
 
 @media screen and (max-width: 768px) {
+
+  .half {
+    display:none;
+  }
+
+
   .story {
     margin: 5em 0;
   }
