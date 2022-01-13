@@ -8,17 +8,20 @@ import How from '../../components/tiny/how';
 import {useAuth0} from '@auth0/auth0-react'
 import Footer from '../../components/common/footer/footer';
 import { Story, Team } from '../../components/tiny/team';
-const Homepage = () => {
+import Loader from './loader'
 
-    const {loginWithRedirect, logout, user, isAuthenticated} = useAuth0()
+export const Child = () => {
 
+    const {loginWithRedirect, logout, user, isAuthenticated, isLoading} = useAuth0()
     const logIn = () => loginWithRedirect();
     return (
+        
         <>
-            <Header/>
 
-           
-            <section className="container  ">
+     
+              <div>
+                    <Header/>
+           <section className="container  ">
               <div className="note  ">
 
      
@@ -115,9 +118,26 @@ const Homepage = () => {
 
             </div>
 
+           </div>
+        </>
+    )
+}
+
+export const Homepage = () => {
+
+    const {isLoading} = useAuth0()
+
+   
+    return (
+        <>
+
+            {
+                isLoading ?    <Loader/> : <Child/>
+            }
+         
+           
         </>
 
     )
 }
 
-export default Homepage;

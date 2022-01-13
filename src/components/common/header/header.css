@@ -3,6 +3,25 @@
   src: url("../../../assets/fonts/Euclid/Euclid Circular A Medium.ttf");
 }
 
+.side {
+  width: 0%;
+  height: 100%;
+  background: #18202f;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  transition: all 0.6s ease;
+  font-family: Euclid;
+  
+}
+
+.close {
+  font-size: 3em;
+}
+
 header {
   font-family: "Euclid";
   font-weight: 500;

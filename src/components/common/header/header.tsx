@@ -1,11 +1,19 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './header.css'
 import Setroi from '../../../assets/images/images/setroi.svg'
 import {FaBars} from 'react-icons/fa'
 import {useAuth0} from '@auth0/auth0-react'
+import {Sidebar} from './sidebar'
 
 
 const Header = (props:any) =>{
+
+    //states details
+    const [open, setOpen] = useState(0);
+
+    //open side bar state
+
+   
 
     const { user, isAuthenticated, isLoading, logout } = useAuth0();
 
@@ -13,6 +21,23 @@ const Header = (props:any) =>{
     return (
 
         <>
+
+         <div className="side"
+            style={{
+                width: `${open}%`
+            }}
+            >
+            <div>
+                 <h1 className='text-white px-5 float-right close' 
+                 onClick={()=>{
+                        setOpen(0)
+                 }}
+
+                 
+                 >&times;</h1>
+            </div>
+             <Sidebar/>
+         </div>
       
 
            <div className="container">
@@ -49,7 +74,9 @@ const Header = (props:any) =>{
      
 
                     <div className="menu">
-                        <h1><FaBars/></h1>
+                        <h1
+                            onClick={()=>{setOpen(100)}}
+                        ><FaBars/></h1>
                     </div>
                    </div>
 
