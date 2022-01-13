@@ -36,8 +36,8 @@ const Ads  = () => {
 
        
 
-            <div className="right">
-                <img src={Phone} alt="" />
+            <div className="right ">
+                <img src={Phone} alt="" className='phone-ads' />
             </div>
 
             </div>
