@@ -99,5 +99,9 @@ color: #18202F;
     .works-inner p{
         font-size: 1em;
     }
+
+    .phone-ads {
+        display:none;
+    }
 }
     
