@@ -9,7 +9,8 @@ module.exports = {
      "text":"#344565",
      "bg-dark":"#18202F",
      "bg-footer":"#111722",
-     "more":"#5774A8"
+     "more":"#5774A8",
+     "team":"#192130"
 
 
     },
