@@ -3,14 +3,16 @@ import './footer.css'
 import apple_dark from '../../../assets/images/images/apple-dark.svg'
 import android_dark from '../../../assets/images/images/android-dark.svg'
 import Cards from '../../../assets/images/images/cards.svg'
+import {Team} from '../../../components/tiny/team'
 import Footer_svg from '../../../assets/images/images/footer_svg.svg'
 const Footer = ()=>{
     return (
         <>
             <footer className='bg-bg-footer'>
 
+               
+                       
                 <div className="container">
-
                     <div className="flex justify-between sm:flex-col">
 
                         <div className="logo">

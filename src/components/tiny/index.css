@@ -8,6 +8,24 @@
   src: url("../../assets/fonts/Euclid/Euclid Circular A Regular.ttf");
 }
 
+
+
+.success {
+  margin: 5em 0; 
+}
+
+.team {
+  margin-top: 1em;
+  padding-top: 2.5em;
+ 
+}
+.team h4 {
+  font-family: Recoleta;
+}
+
+.team button {
+  font-family: Euclid;
+}
 .container .note {
   height: 70vh;
 }
@@ -32,23 +50,31 @@
   line-height: 1.5em;
   color: #e7e5e5 !important;
 }
+.top-top {
+  font-family: Recoleta;
+  width: 50%;
+}
 
+.bread {
+  font-family: Euclid;
+  width: 70%;
+  font-size: 18px;
+}
 .split {
   margin-top: 6em;
 }
 
-.part h2 {
-  font-family: Recoleta;
-  font-size: 1.5em;
-  margin-bottom: 1em;
-  width: 273px;
-  line-height: 1.5em;
+
+.clients {
+  width:80%
 }
 
-.part p {
-  width: 20em;
-  font-family: Euclid;
-  color: #d4d3d3 !important;
+.pray {
+  display: none;
+}
+
+.successfully {
+  font-awesome:33em;
 }
 
 .details {
@@ -71,6 +97,10 @@
 }
 
 @media (min-width: 1200px) {
+  .story {
+    margin: 8em 0;
+  }
+
   .container .lady-part {
     margin-top: 3em;
   }
@@ -93,6 +123,13 @@
 }
 
 @media screen and (max-width: 768px) {
+  .story {
+    margin: 5em 0;
+  }
+
+  .bread  {
+    width: 100%;
+  }
   .phone {
     position: static;
     width: 100%;
